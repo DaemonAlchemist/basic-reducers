@@ -7,9 +7,9 @@ export const COUNTER_INCREMENT  = 'basic/counter/increment';
 export const COUNTER_DECREMENT  = 'basic/counter/decrement';
 
 //Action creators and selectors
-export const input = {
-    increment: (name, min = -9999999999999999, max = 9999999999999999) => ({type: COUNTER_INCREMENT, name, min, max}),
-    decrement: (name, min = -9999999999999999, max = 9999999999999999) => ({type: COUNTER_DECREMENT, name, min, max}),
+export const counter = {
+    increment: (name, max = 9999999999999999) => ({type: COUNTER_INCREMENT, name, max}),
+    decrement: (name, min = -9999999999999999) => ({type: COUNTER_DECREMENT, name, min}),
     reset: (name, value = 0) => ({type: COUNTER_RESET, name, value}),
     value: (getState, name) => getState().basic.counter[name] || 0
 };
