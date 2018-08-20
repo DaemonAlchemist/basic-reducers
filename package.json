@@ -38,7 +38,7 @@
     "npm-check-updates": "^2.14.2"
   },
   "dependencies": {
-    "atp-pointfree": "^0.11.1",
+    "atp-pointfree": "^0.11.3",
     "redux": "^4.0.0"
   }
 }
