@@ -1,6 +1,6 @@
 {
   "name": "basic-reducers",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A library of basic reducers to reduce Redux boilerplate for simple one-off states",
   "main": "lib/index.js",
   "scripts": {
